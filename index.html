@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria dos Vestidos</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+ <!-- Cabeçalho -->
+<header>
+    <h1> GALERIA DOS VESTIDOS</h1>
+</header>
+ <!-- Grid de Produtos-->
+<main class="container">
+    <section class="products-container">
+<div class="card">
+    <div class="product-image" id="img-1"></div>
+<h3> Vestido 1</h3>
+<p>Este vestido tem um caimento perfeito no corpo</p>
+<p> R$ <span class= "bold">349,99</span></p>
+<a href="#" class="btn comprar" data-vestido="Vestido 1">Comprar</a>
+</div>
+<div class="card">
+    <div class="product-image" id="img-2"></div>
+<h3> Vestido 2</h3>
+<p>Este vestido tem um caimento perfeito no corpo</p>
+<p> R$ <span class= "bold">349,99</span></p>
+<a href="#" class="btn comprar" data-vestido="Vestido 2">Comprar</a>
+</div>
+<div class="card">
+    <div class="product-image" id="img-3"></div>
+<h3> Vestido 3</h3>
+<p>Este vestido tem um caimento perfeito no corpo</p>
+<p> R$ <span class= "bold">349,99</span></p>
+<a href="#" class="btn comprar" data-vestido="Vestido 3">Comprar</a>
+</div>
+<div class="card">
+    <div class="product-image" id="img-4"></div>
+<h3> Vestido 4</h3>
+<p>Este vestido tem um caimento perfeito no corpo</p>
+<p> R$ <span class= "bold">349,99</span></p>
+<a href="#" class="btn comprar" data-vestido="Vestido 4">Comprar</a>
+</div>
+<div class="card">
+    <div class="product-image" id="img-5"></div>
+<h3> Vestido 5</h3>
+<p>Este vestido tem um caimento perfeito no corpo</p>
+<p> R$ <span class= "bold">349,99</span></p>
+<a href="#" class="btn comprar" data-vestido="Vestido 5">Comprar</a>
+</div>
+<div class="card">
+    <div class="product-image" id="img-6"></div>
+<h3> Vestido 6</h3>
+<p>Este vestido tem um caimento perfeito no corpo</p>
+<p> R$ <span class= "bold">349,99</span></p>
+<a href="#" class="btn comprar" data-vestido="Vestido 6">Comprar</a>
+</div>
+</section>
+<!-- Área do pedido -->
+<section class="pedido-container">
+<h2>Faça seu pedido</h2>
+<p id="mensagem">
+Escolha um vestido clicando em Comprar. </p>
+<form id="form-pedido">
+<label for="quantidade">Quantidade de vestidos:</label>
+<input
+type="number"
+id="quantidade"
+min="1"
+max="10"
+value="1"
+required
+>
+
+<button type="submit" class="btn">
+Calcular pedido
+</button>
+
+</form>
+
+<p id="resultado" aria-live="polite">
+O valor do pedido aparecerá aqui.
+</p>
+
+</section>
+
+</main>
+ <!-- Rodapé -->
+  <footer>
+    <p><span class="bold">GALERIA DOS VESTIDOS</span> &copy; 2026
+    </p>
+  </footer>
+</body>
+</html>
